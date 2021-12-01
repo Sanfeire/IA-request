@@ -3,10 +3,10 @@
 #FUNCTIONS
 caca (){
         read request
-        sleep 3
+        sleep 2
         curl https://api.openai.com/v1/engines/davinci-instruct-beta-v3/completions \
           -H "Content-Type: application/json" \
-          -H "Authorization: Bearer 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" \
+          -H "Authorization: Bearer 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" \
           -d '{
           "prompt": "'"$request"'",
           "temperature": 0.7,
