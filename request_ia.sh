@@ -6,7 +6,7 @@ caca (){
         sleep 2
         curl https://api.openai.com/v1/engines/davinci-instruct-beta-v3/completions \
           -H "Content-Type: application/json" \
-          -H "Authorization: Bearer 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" \
+          -H "Authorization: Bearer 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" \
           -d '{
           "prompt": "'"$request"'",
           "temperature": 0.7,
